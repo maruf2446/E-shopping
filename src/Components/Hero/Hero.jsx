@@ -1,26 +1,26 @@
 import React from 'react'
-import image1 from "../../assets/img/hero/banar2.jpg"
-import image2 from "../../assets/img/hero/al-modina.jpg"
-import image3 from "../../assets/img/hero/1.jpg"
+import image1 from "../../assets/img/hero/women.png"
+import image2 from "../../assets/img/hero/shopping.png"
+import image3 from "../../assets/img/hero/sale.png"
 import Slider from "react-slick";
 
 const ImageList = [
     {
         id: 1,
         img: image1,
-        title: "AL-MODINA Electronics",
+        title: "Upto 50% off on all Men's Wear",
         descripiton: "Lorem his life will forever be changed dolor sit, amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magana aliqua.",
     },
     {
         id: 2,
         img: image2,
-        title: "AL-MODINA EcoBricks",
+        title: "30% off on all Women's Wear",
         descripiton: "Lorem his life will forever be changed dolor sit, amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magana aliqua.",
     },
     {
         id: 3,
         img: image3,
-        title: "AL-MODINA Traders",
+        title: "70% off on all Products Sale",
         descripiton: "Lorem his life will forever be changed dolor sit, amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magana aliqua.",
     },
 ]

@@ -1,6 +1,6 @@
 import React from 'react'
-import footerLogo from "../../assets/img/website/footer.jpg";
-import Banner from "../../assets/img/website/footer-pattern.jpg";
+import footerLogo from "../../assets/img/website/logo.png";
+import Banner from "../../assets/img/website/logo.png";
 import { FaGithub, FaSkype } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
@@ -45,7 +45,7 @@ function Footer() {
         <div className="bg-[#010851] md:px-14 p-4 max-w-screen-2xl mx-auto text-white">
             <div className='my-12 flex flex-col md:flex-row gap-10'>
                 <div className='md:w-1/2 space-y-8'>
-                    <a href="" className='text-2xl font-semibold flex items-center space-x-3 text-primary'><img src={footerLogo} alt="" className='w-18 h-14 inline-block items-center' /> <span className='text-white'>AL-MODINA</span>
+                    <a href="" className='text-2xl font-semibold flex items-center space-x-3 text-primary'><img src={footerLogo} alt="" className='w-18 h-14 inline-block items-center' /> <span className='text-white'>Ema-Johan</span>
                     </a>
                     <p className='md:w-1/2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eos magnam adipisci quisquam nihil labore sapiente possimus dignissimos illo corrupti.</p>
                     <div>
@@ -78,23 +78,23 @@ function Footer() {
                         <ul className='space-y-3'>
                             <div className="flex items-center gap-3 mt-3">
                                 <FaMobileAlt className='text-xl'/>
-                                <p>+8801757995140</p>
+                                <p>+8801720438804</p>
                             </div>
                             <div className="flex items-center gap-3">
                             <HiOutlineMail className='text-xl' />
-                                <p>almodinak13199013@gmail.com</p>
+                                <p>maruf2446@gmail.com</p>
                             </div>
                             <div className="flex items-center gap-3">
                                 <FaLocationArrow />
-                                <p>Fulbaria, Mymensingh</p>
+                                <p>Mymensingh, Dhaka, Bangladesh</p>
                             </div>
                         </ul>
                         <div className='flex items-center gap-4'>
-                            <a href="https://www.facebook.com/profile.php?id=100007308975016" target="_blank">
+                            <a href="http://www.facebook.com/iskmaruf/" target="_blank">
                                 <FaFacebook className='text-4xl cursor-pointer' />
                             </a>
 
-                            <a href="http://wa.me/+881757995140" target="_blank">
+                            <a href="http://wa.me/+8801720438804" target="_blank">
                                 <FaWhatsapp className='text-4xl cursor-pointer' />
                             </a>
                         </div>
